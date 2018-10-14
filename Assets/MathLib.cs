@@ -22,14 +22,8 @@ public static class MathLib {
     /// </summary>
     public static Vector2 PolarToCartesian(Vector2 polarCoordinate)
     {
-        //Vector2 cartesianCoordinate = new Vector2();
-        float r = polarCoordinate.x;
-        float theta = polarCoordinate.y;
-
-        float x = r * Mathf.Cos(theta);
-        float y = r * Mathf.Sin(theta);
-
-        Vector2 cartesianCoordinate = new Vector2(x, y);
+        //insert formula
+        Vector2 cartesianCoordinate = new Vector2();
         return cartesianCoordinate;
     }
 
@@ -38,15 +32,8 @@ public static class MathLib {
     /// </summary>
     public static Vector2 CartesianToPolar(Vector2 cartesianCoordinate)
     {
-        //Vector2 polarCoordinate = new Vector2();
-
-        float x = cartesianCoordinate.x;
-        float y = cartesianCoordinate.y;
-
-        float r = Mathf.Sqrt(x * x + y * y);
-        float theta = Mathf.Atan2(y, x);
-        Vector2 polarCoordinate = new Vector2(r, theta);
-
+        //insert formula
+        Vector2 polarCoordinate = new Vector2();
         return polarCoordinate;
     }
 }
